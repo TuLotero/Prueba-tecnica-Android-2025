@@ -7,8 +7,6 @@ Se tratará de una versión simplificada del que ya funciona en la app.
 
 La idea es que visualmente y funcionalmente sea lo más similar posible al buscador existente de la app. 
 
-![Texto alternativo](buscador_nums.png)
-
 ## Puntos a implementar
 Se proponen los siguientes puntos (en orden de dificultad creciente). No es obligatorio llegar al final, pero cuanto más se consiga, más valoración daremos.
 
@@ -31,6 +29,8 @@ Hacer que las peticiones HTTP tengan algún mecanismo de unbouncing u otro tipo 
 Se propone que se deduzcan los endpoints y payloads a usar mediante ingeniería inversa de https://web.es.pre.tulotero.net/ , es decir, la versión Web en Pre, en variante Desktop. Ya que en este caso se usan endpoints anónimos (sin autenticación). La versión móvil real usa el endpoint autenticado, pero para esta prueba tiene que funcionar sin autenticación.
 
 Las pantallas deberían parecerse lo más posible a las que hay en la app nativa, pero excuyendo las partes que tapo en rojo:
+
+<img src="buscador_nums.png" alt="Logo de Markdown" width="400" />
 
 Por no complicarlo excesivamente, es suficiente que funcione con compileSdk, minSdkVersion y targetSdkVersion 34
 
