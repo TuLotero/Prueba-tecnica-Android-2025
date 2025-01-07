@@ -2,7 +2,9 @@
 
 # Introducción
 La prueba consiste en implementar un buscador de números de Lotería Nacional.
+
 Se tratará de una versión simplificada del que ya funciona en la app.
+
 La idea es que visualmente y funcionalmente sea lo más similar posible al buscador existente de la app. 
 
 # Puntos a implementar
