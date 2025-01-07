@@ -34,6 +34,9 @@ Hacer que las peticiones HTTP tengan algún mecanismo de unbouncing u otro tipo 
 #### Resto de buscadores
 Administración y Provincia
 
+#### Detalles
+Animaciones y efectos similares a los que hay en el buscador de la app real
+
 ## Notas
 Se propone que se deduzcan los endpoints y payloads a usar mediante ingeniería inversa de [https://web.es.pre.tulotero.net/](https://web.tulotero.es/) , es decir, la versión Web, en variante Desktop. Ya que en este caso se usan endpoints anónimos (sin autenticación). La versión móvil real usa el endpoint autenticado, pero para esta prueba tiene que funcionar sin autenticación.
 
