@@ -10,20 +10,29 @@ La idea es que visualmente y funcionalmente sea lo más similar posible al busca
 ## Puntos a implementar
 Se proponen los siguientes puntos (en orden de dificultad creciente). No es obligatorio llegar al final, pero cuanto más se consiga, más valoración daremos.
 
-#### 1. Barra de buscadores
+### Básico
 
-#### 2. Buscador por números
+#### Buscador por números
    
   Se facilitan las imágenes de los 10 dígitos para los deslizables
 
-#### 3. Buscador por cantidad de décimos
+### Intermedio
+  
+#### Barra de buscadores
 
-#### 4. Buscador por cercanía
+#### Buscador por cantidad de décimos
+
+#### Buscador por cercanía
    
   Tener en cuenta petición de permisos
 
-#### Puntos extra
+### Avanzado
+
+#### Limitar peticiones
 Hacer que las peticiones HTTP tengan algún mecanismo de unbouncing u otro tipo de límite para evitar que el backend deje de devolver resultados por hacerse un número excesivo de peticiones en poco tiempo.
+
+#### Resto de buscadores
+Administración y Provincia
 
 ## Notas
 Se propone que se deduzcan los endpoints y payloads a usar mediante ingeniería inversa de [https://web.es.pre.tulotero.net/](https://web.tulotero.es/) , es decir, la versión Web, en variante Desktop. Ya que en este caso se usan endpoints anónimos (sin autenticación). La versión móvil real usa el endpoint autenticado, pero para esta prueba tiene que funcionar sin autenticación.
