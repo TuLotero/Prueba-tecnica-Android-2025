@@ -16,9 +16,9 @@ Se proponen los siguientes puntos (en orden de dificultad creciente). No es obli
    
   Se facilitan las imágenes de los 10 dígitos para los deslizables
 
-4. Buscador por cantidad de décimos
+3. Buscador por cantidad de décimos
 
-5. Buscador por cercanía
+4. Buscador por cercanía
    
   Tener en cuenta petición de permisos
 
