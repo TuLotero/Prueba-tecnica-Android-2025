@@ -7,6 +7,8 @@ Se tratará de una versión simplificada del que ya funciona en la app.
 
 La idea es que visualmente y funcionalmente sea lo más similar posible al buscador existente de la app. 
 
+![Texto alternativo](buscador_nums.png)
+
 ## Puntos a implementar
 Se proponen los siguientes puntos (en orden de dificultad creciente). No es obligatorio llegar al final, pero cuanto más se consiga, más valoración daremos.
 
