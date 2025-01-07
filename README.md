@@ -13,11 +13,13 @@ Se proponen los siguientes puntos (en orden de dificultad creciente). No es obli
 1. Barra de buscadores
 
 2. Buscador por números
+   
   Se facilitan las imágenes de los 10 dígitos para los deslizables
 
-3. Buscador por cantidad de décimos
+4. Buscador por cantidad de décimos
 
-4. Buscador por cercanía
+5. Buscador por cercanía
+   
   Tener en cuenta petición de permisos
 
 Puntos extra: hacer que las peticiones HTTP tengan algún mecanismo de unbouncing u otro tipo de límite para evitar que el backend deje de devolver resultados por hacerse un número excesivo de peticiones en poco tiempo.
