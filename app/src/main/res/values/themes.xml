@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BuscadorDeBoletos" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/greenTL</item>
+    </style>
+
+    <style name="Theme.BuscadorDeBoletos" parent="Base.Theme.BuscadorDeBoletos" />
+</resources>
