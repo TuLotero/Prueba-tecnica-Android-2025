@@ -17,7 +17,9 @@ Se proponen los siguientes puntos (en orden de dificultad creciente). No es obli
 #### Buscador por números y por cantidad de décimos
 
 Se facilitan las imágenes de los 10 dígitos para los deslizables
+
 Se provee la implementación inicial de varias capas: model, viewmoodel, repository, network. Y un MockApiService con mocks de respuesta.
+
 Queda para implementar por el candidato las vistas y el ViewModel, de forma que el funionamiento sea similar al de la app real en esta sección (aunque limitándonos a buscar por número y por cantidad).
 
 ### Intermedio
