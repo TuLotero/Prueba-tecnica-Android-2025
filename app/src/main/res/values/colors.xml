@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="greenTL">#20B873</color>
+    <color name="user_menu_tab_bg">#E9E9E9</color>
+    <color name="grey">#736F6E</color>
+    <color name="marigold">#ffba00</color>
 </resources>

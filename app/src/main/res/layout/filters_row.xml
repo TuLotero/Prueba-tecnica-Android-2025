@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filters_horizontal_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/filters_row_shape"
+    android:clipToPadding="false"
+    android:paddingStart="4dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="4dp"
+    android:paddingBottom="8dp"
+    android:scrollbars="none"
+    tools:ignore="UseCompoundDrawables">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/filter_numero"
+            style="@style/filter_button">
+
+            <ImageView
+                android:id="@+id/filter_numero_img"
+                style="@style/filter_icon"
+                android:src="@drawable/filtro_numero"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/filter_numero_text"
+                style="@style/filter_text"
+                tools:text="Número" />
+
+            <TextView
+                android:id="@+id/filter_numero_with_value"
+                style="@style/filter_text_yellow_bg"
+                tools:text="Número"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/filter_cantidad"
+            style="@style/filter_button">
+
+            <ImageView
+                android:id="@+id/filter_cantidad_img"
+                style="@style/filter_icon"
+                android:src="@drawable/filtro_cantidad"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/filter_cantidad_text"
+                style="@style/filter_text"
+                tools:text="Cantidad" />
+
+            <TextView
+                android:id="@+id/filter_cantidad_with_value"
+                style="@style/filter_text_yellow_bg"
+                tools:text="Número"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/filter_ubicacion"
+            style="@style/filter_button">
+
+            <ImageView
+                android:id="@+id/filter_ubicacion_img"
+                style="@style/filter_icon"
+                android:src="@drawable/filter_ubicacion"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/filter_ubicacion_text"
+                style="@style/filter_text"
+                tools:text="Ubicación" />
+
+            <TextView
+                android:id="@+id/filter_ubicacion__with_value"
+                style="@style/filter_text_yellow_bg"
+                tools:text="Número"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>
