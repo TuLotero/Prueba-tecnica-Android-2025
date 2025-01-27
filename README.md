@@ -32,6 +32,8 @@ Queda para implementar por el candidato las vistas y el ViewModel, de forma que 
 
 
 ## Notas
+En uicomponents se facilitan componentes UI reutilizables
+
 Se valorará que las pantallas y elementos visuales se parezcan lo más posible a las que hay en la app nativa / pantallazo que se provee.
 
 Lo que se evaluará principalmente es que el código sea lo más simple y claro posible, aparte de ser correcto y eficiente.
