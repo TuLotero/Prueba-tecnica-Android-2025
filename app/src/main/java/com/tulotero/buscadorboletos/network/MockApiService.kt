@@ -4,6 +4,7 @@ import com.tulotero.buscadorboletos.model.DataModel
 import kotlinx.coroutines.delay
 import retrofit2.http.Path
 import retrofit2.http.Query
+import java.util.Locale
 import kotlin.random.Random
 import kotlin.text.filter
 import kotlin.text.matches
@@ -42,6 +43,6 @@ class MockApiService : ApiService {
     }
 
     private fun generateRandomNumberString(): String {
-        return (10000..99999).random().toString()
+        return String.format(Locale.getDefault(), "%05d", (0..99999).random())
     }
 }
