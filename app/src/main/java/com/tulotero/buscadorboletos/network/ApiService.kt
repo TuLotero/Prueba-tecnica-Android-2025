@@ -1,6 +1,6 @@
 package com.tulotero.buscadorboletos.network
 
-import com.tulotero.buscadorboletos.model.DataModel
+import com.tulotero.buscadorboletos.model.Boleto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -11,7 +11,7 @@ interface ApiService {
         @Path("sorteo") id: Int,
         @Query("numero") numero: String,
         @Query("cantidadMinima") cantidadMinima: Int
-    ): List<DataModel>
+    ): List<Boleto>
 }
 
 object RetrofitInstance {

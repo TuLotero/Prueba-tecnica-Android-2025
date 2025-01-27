@@ -1,12 +1,11 @@
 package com.tulotero.buscadorboletos.network
 
-import com.tulotero.buscadorboletos.model.DataModel
+import com.tulotero.buscadorboletos.model.Boleto
 import kotlinx.coroutines.delay
 import retrofit2.http.Path
 import retrofit2.http.Query
 import java.util.Locale
 import kotlin.random.Random
-import kotlin.text.filter
 import kotlin.text.matches
 import kotlin.text.replace
 import kotlin.text.toRegex
@@ -20,7 +19,7 @@ class MockApiService : ApiService {
         @Path("sorteo") id: Int,
         @Query("numero") numero: String,
         @Query("cantidadMinima") cantidadMinima: Int
-    ): List<DataModel> {
+    ): List<Boleto> {
         delay(SIMULATED_NETWORK_DELAY)
         return mockData
             .filter { dataModel ->
@@ -32,14 +31,14 @@ class MockApiService : ApiService {
             }
     }
 
-    private fun generateMockData(): List<DataModel> {
-        val dataModels = mutableListOf<DataModel>()
+    private fun generateMockData(): List<Boleto> {
+        val boletos = mutableListOf<Boleto>()
         for (i in 0 until 200) {
             val cantidad = Random.nextInt(1, 100)
             val numeros = generateRandomNumberString()
-            dataModels.add(DataModel(cantidad, numeros))
+            boletos.add(Boleto(cantidad, numeros))
         }
-        return dataModels
+        return boletos
     }
 
     private fun generateRandomNumberString(): String {

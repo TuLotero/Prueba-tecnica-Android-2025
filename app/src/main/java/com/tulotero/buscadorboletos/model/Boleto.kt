@@ -1,6 +1,6 @@
 package com.tulotero.buscadorboletos.model
 
-data class DataModel(
+data class Boleto(
     val cantidad: Int,
     val numero: String
 )
