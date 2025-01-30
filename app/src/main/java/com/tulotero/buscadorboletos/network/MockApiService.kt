@@ -44,10 +44,10 @@ class MockApiService : ApiService {
     }
 
     private fun generateRandomCoordinates(): Pair<Double, Double> {
-        val minLatitude = 43.74
-        val maxLatitude = 35.98
-        val minLongitude = -9.0
-        val maxLongitude = -2.33
+        val minLatitude = 35.0
+        val maxLatitude = 44.0
+        val minLongitude = -10.0
+        val maxLongitude = 4.0
         val latitude = Random.nextDouble(minLatitude, maxLatitude)
         val longitude = Random.nextDouble(minLongitude, maxLongitude)
         return Pair(latitude, longitude)
