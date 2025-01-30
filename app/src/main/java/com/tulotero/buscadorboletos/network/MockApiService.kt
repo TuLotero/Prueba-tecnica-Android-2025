@@ -5,12 +5,7 @@ import kotlinx.coroutines.delay
 import retrofit2.http.Path
 import retrofit2.http.Query
 import java.util.Locale
-import kotlin.math.cos
-import kotlin.math.sin
 import kotlin.random.Random
-import kotlin.text.matches
-import kotlin.text.replace
-import kotlin.text.toRegex
 
 private const val SIMULATED_NETWORK_DELAY = 500L
 
