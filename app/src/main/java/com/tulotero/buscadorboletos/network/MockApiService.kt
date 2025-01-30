@@ -5,6 +5,8 @@ import kotlinx.coroutines.delay
 import retrofit2.http.Path
 import retrofit2.http.Query
 import java.util.Locale
+import kotlin.math.cos
+import kotlin.math.sin
 import kotlin.random.Random
 import kotlin.text.matches
 import kotlin.text.replace
@@ -36,12 +38,23 @@ class MockApiService : ApiService {
         for (i in 0 until 200) {
             val cantidad = Random.nextInt(1, 100)
             val numeros = generateRandomNumberString()
-            boletos.add(Boleto(cantidad, numeros))
+            val (latitude, longitude) = generateRandomCoordinates()
+            boletos.add(Boleto(cantidad, numeros, latitude, longitude))
         }
         return boletos
     }
 
     private fun generateRandomNumberString(): String {
         return String.format(Locale.getDefault(), "%05d", (0..99999).random())
+    }
+
+    private fun generateRandomCoordinates(): Pair<Double, Double> {
+        val minLatitude = 43.74
+        val maxLatitude = 35.98
+        val minLongitude = -9.0
+        val maxLongitude = -2.33
+        val latitude = Random.nextDouble(minLatitude, maxLatitude)
+        val longitude = Random.nextDouble(minLongitude, maxLongitude)
+        return Pair(latitude, longitude)
     }
 }
