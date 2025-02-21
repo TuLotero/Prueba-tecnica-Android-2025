@@ -7,7 +7,7 @@ Se tratará de una versión simplificada del que ya funciona en la app. Solament
 
 La idea es que visualmente y funcionalmente sea lo más similar posible al buscador existente de la app.
 
-demo.mp4
+https://github.com/TuLotero/Prueba-tecnica-Android-2025/blob/main/demo.mp4
 
 ## Puntos a implementar
 Se proponen los siguientes puntos (en orden de dificultad creciente). No es obligatorio llegar al final, pero cuanto más se consiga, más valoración daremos.
