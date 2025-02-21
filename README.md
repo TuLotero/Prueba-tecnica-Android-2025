@@ -7,7 +7,7 @@ Se tratará de una versión simplificada del que ya funciona en la app. Solament
 
 La idea es que visualmente y funcionalmente sea lo más similar posible al buscador existente de la app.
 
-<img src="buscador_nums.png" alt="Logo de Markdown" width="400" />
+[Vídeo de muestra](demo.mp4)
 
 ## Puntos a implementar
 Se proponen los siguientes puntos (en orden de dificultad creciente). No es obligatorio llegar al final, pero cuanto más se consiga, más valoración daremos.
@@ -28,7 +28,7 @@ Queda para implementar por el candidato las vistas y el ViewModel, de forma que 
 
 ### Avanzado
 
-#### Buscador por cercanía (Implica petición de permisos, etc)
+#### Buscador por cercanía
 
 
 ## Notas
