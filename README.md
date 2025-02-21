@@ -26,6 +26,7 @@ Similares a los que hay en el buscador de la app real o los que se ven en el ví
 ### ⭐⭐⭐ Avanzado: buscador por cercanía
 Habría que calculaar la distancia en KM de cada décimo a la ubicación del dispositivo, y ordenarlos de más cercano a más lejano. Para ello es necesario pedir al usuario permisos de ubicación.)
 
+[demo_proximity.png]
 
 ## Notas
 En uicomponents se facilitan componentes UI reutilizables
