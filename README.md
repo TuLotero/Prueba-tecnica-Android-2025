@@ -7,7 +7,7 @@ Se tratará de una versión simplificada del que ya funciona en la app. Solament
 
 La idea es que visualmente y funcionalmente sea lo más similar posible al buscador existente de la app.
 
-[Vídeo de muestra](demo.mp4)
+demo.mp4
 
 ## Puntos a implementar
 Se proponen los siguientes puntos (en orden de dificultad creciente). No es obligatorio llegar al final, pero cuanto más se consiga, más valoración daremos.
@@ -20,15 +20,15 @@ Se facilitan las imágenes de los 10 dígitos para los deslizables
 
 Se provee la implementación inicial de varias capas: model, viewmodel, repository, network. Y un MockApiService con mocks de respuesta.
 
-Queda para implementar por el candidato las vistas y el ViewModel, de forma que el funionamiento sea similar al de la app real en esta sección (aunque limitándonos a buscar por número y por cantidad).
+Queda para implementar por el candidato las vistas y el ViewModel, de forma que el funcionamiento sea similar al de la app real en esta sección (aunque limitándonos a buscar por número y cantidad).
 
 ### Intermedio
 
-#### Animaciones y efectos similares a los que hay en el buscador de la app real.
+#### Animaciones y efectos similares a los que hay en el buscador de la app real o los que se ven en el vídeo.
 
 ### Avanzado
 
-#### Buscador por cercanía
+#### Buscador por cercanía (habría que calculaar la distancia en KM de cada décimo a la ubicación del dispositivo, y ordenarlos de más cercano a más lejano. Para ello es necesario pedir al usuario permisos de ubicación.)
 
 
 ## Notas
